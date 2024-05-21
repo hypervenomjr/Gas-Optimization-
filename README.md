@@ -6,33 +6,33 @@
 
 # Gas Optimization
 
-| Title                            | Guide                              | Contract                            |          Proof of Concept           |
-| :------------------------------- | :--------------------------------- | :---------------------------------- | :---------------------------------: |
-| Arithmetic & Bitwise Operators   | [Guide](docs/Arithmetic.md)        | [Contract](src/Arithmetic.sol)      |    [PoC](test/Arithmetic.t.sol)     |
-| Public vs External               | [Guide](docs/PublicExternal.md)    | [Contract](src/PublicExternal.sol)  |  [PoC](test/PublicExternal.t.sol)   |
-| Default Initialization (x)       | [Guide](docs/DefaultInit.md)       | [Contract](src/DefaultInit.sol)     |    [PoC](test/DefaultInit.t.sol)    |
-| Revert Strings                   | [Guide](docs/RevertString.md)      | [Contract](src/RevertString.sol)    |   [PoC](test/RevertString.t.sol)    |
-| Redundant Checks                 | [Guide](docs/RedundantCheck.md)    | [Contract](src/RedundantCheck.sol)  |  [PoC](test/RedundantCheck.t.sol)   |
-| Nested If Statements             | [Guide](docs/NestedIf.md)          | [Contract](src/NestedIf.sol)        |     [PoC](test/NestedIf.t.sol)      |
-| State Variable vs Local Variable | [Guide](docs/Array.md)             | [Contract](src/ArrayLength.sol)     |    [PoC](test/ArrayLength.t.sol)    |
-| Packing Variables                | [Guide](docs/PackVariables.md)     | [Contract](src/PackVariables.sol)   |   [PoC](test/PackVariables.t.sol)   |
-| Data Types                       | [Guide](docs/DataType.md)          | [Contract](src/DataType.sol)        |     [PoC](test/DataType.t.sol)      |
-| Addition                         | [Guide](docs/Addition.md)          | [Contract](src/Addition.sol)        |     [PoC](test/Addition.t.sol)      |
-| Garbage Collection               | [Guide](docs/GarbageCollection.md) | [Contract](src/GC.sol)              | [PoC](test/GarbageCollection.t.sol) |
-| Swap                             | [Guide](docs/Swap.md)              | [Contract](src/Swap.sol)            |       [PoC](test/Swap.t.sol)        |
-| Call Data vs Memory              | [Guide](docs/CDMem.md)             | [Contract](src/CDMem.sol)           |       [PoC](test/CDMem.t.sol)       |
-| Immutable                        | [Guide](docs/Immutable.md)         | [Contract](src/Immutable.sol)       |     [PoC](test/Immutable.t.sol)     |
-| Solidity Version                 | [Guide](docs/SolidityVersion.md)   |                                     |                                     |
-| Unsigned Integer Comparision     | [Guide](docs/CompareZero.md)       | [Contract](src/CompareZero.sol)     |    [PoC](test/CompareZero.t.sol)    |
-| Boolean                          | [Guide](docs/Boolean.md)           |                                     |                                     |
-| Custom Errors                    | [Guide](docs/CustomError.md)       | [Contract](src/CustomError.sol)     |    [PoC](test/CustomError.t.sol)    |
-| Optimization                     | [Guide](docs/Optimization.md)      |                                     |                                     |
-| Use of Library                   | [Guide](docs/Library.md)           |                                     |                                     |
-| String vs Bytes32                | [Guide](docs/StringBytes.md)       | [Contract](src/StringBytes.sol)     |    [PoC](test/StringBytes.t.sol)    |
-| Multiple Require                 | [Guide](docs/MultipleRequire.md)   | [Contract](src/MultipleRequire.sol) |  [PoC](test/MultipleRequire.t.sol)  |
-| Loop Post Condition              | [Guide](docs/LoopPost.md)          | [Contract](src/LoopPost.sol)        |     [PoC](test/LoopPost.t.sol)      |
-| Dead Code                        | [Guide](docs/DeadCode.md)          |                                     |                                     |
-| Short Circuiting                 | [Guide](docs/ShortCircuiting.md)   |                                     |                                     |
+| Title                            | Guide                              | Contract                            |
+| :------------------------------- | :--------------------------------- | :---------------------------------- |
+| Arithmetic & Bitwise Operators   | [Guide](docs/Arithmetic.md)        | [Contract](src/Arithmetic.sol)      |
+| Public vs External               | [Guide](docs/PublicExternal.md)    | [Contract](src/PublicExternal.sol)  |
+| Default Initialization (x)       | [Guide](docs/DefaultInit.md)       | [Contract](src/DefaultInit.sol)     | 
+| Revert Strings                   | [Guide](docs/RevertString.md)      | [Contract](src/RevertString.sol)    |  
+| Redundant Checks                 | [Guide](docs/RedundantCheck.md)    | [Contract](src/RedundantCheck.sol)  |
+| Nested If Statements             | [Guide](docs/NestedIf.md)          | [Contract](src/NestedIf.sol)        |  
+| State Variable vs Local Variable | [Guide](docs/Array.md)             | [Contract](src/ArrayLength.sol)     |    
+| Packing Variables                | [Guide](docs/PackVariables.md)     | [Contract](src/PackVariables.sol)   |  
+| Data Types                       | [Guide](docs/DataType.md)          | [Contract](src/DataType.sol)        |
+| Addition                         | [Guide](docs/Addition.md)          | [Contract](src/Addition.sol)        |    
+| Garbage Collection               | [Guide](docs/GarbageCollection.md) | [Contract](src/GC.sol)              | 
+| Swap                             | [Guide](docs/Swap.md)              | [Contract](src/Swap.sol)            | 
+| Call Data vs Memory              | [Guide](docs/CDMem.md)             | [Contract](src/CDMem.sol)           |    
+| Immutable                        | [Guide](docs/Immutable.md)         | [Contract](src/Immutable.sol)       |    
+| Solidity Version                 | [Guide](docs/SolidityVersion.md)   |                                     |     
+| Unsigned Integer Comparision     | [Guide](docs/CompareZero.md)       | [Contract](src/CompareZero.sol)     |   
+| Boolean                          | [Guide](docs/Boolean.md)           |                                     |  
+| Custom Errors                    | [Guide](docs/CustomError.md)       | [Contract](src/CustomError.sol)     |   
+| Optimization                     | [Guide](docs/Optimization.md)      |                                     |    
+| Use of Library                   | [Guide](docs/Library.md)           |                                     |                                     
+| String vs Bytes32                | [Guide](docs/StringBytes.md)       | [Contract](src/StringBytes.sol)     |   
+| Multiple Require                 | [Guide](docs/MultipleRequire.md)   | [Contract](src/MultipleRequire.sol) |  
+| Loop Post Condition              | [Guide](docs/LoopPost.md)          | [Contract](src/LoopPost.sol)        |   
+| Dead Code                        | [Guide](docs/DeadCode.md)          |                                     |                                     
+| Short Circuiting                 | [Guide](docs/ShortCircuiting.md)   |                                     |                                     
 
 # References
 
